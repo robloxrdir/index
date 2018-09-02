@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+    <link rel="icon" href="res/cycler.png" type="image/*"/>
+    <title>Home</title>
+    <style>
+    html,body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        font-family: 'Oswald', sans-serif;
+        background: #E9FFFE;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container img{
+        height: 60%;
+        background-size: cover;
+        position: absolute;
+        right: 6%;
+        bottom: 6%;
+        display:block;
+        margin: 0 auto;
+    }
+
+    
+    .childs{        
+        position:absolute;
+        top: 6%;
+        left: 6%;
+    }
+    
+    .headline{
+        padding: 4px;
+        color: #2A2A2A;
+        font-size: 2.6em;
+        display: block;
+        font-weight: 100;
+    }
+
+    .action {
+        padding: 8px 84px;
+        background: #A09AFF;
+        border-radius: 100px;
+        cursor: pointer;
+        box-shadow: 4px 4px #FFA2A2;
+        display: inline-block;
+        color: white;
+        font-size: 1.6em;
+        margin-top: -20px;
+    }
+
+    .bold{
+        font-weight: 700 !important;
+        color: black !important;
+        font-size: 1.1em;
+    }
+
+    @media screen and (max-width:800px){
+        .container img{
+            position: static;
+            height: 40%;
+            margin-top: 4%;
+        }
+        .childs{
+            position: static;
+            text-align: center;
+            font-size: 1em;
+        }
+
+    }
+
+    @media screen and (max-width:600px){
+        .container img{
+            position: static;
+            height: 26%;
+            margin-top: 8%;
+        }
+        .childs{
+            position: static;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="res/cycler.png"/>
+        <div class="childs">
+        <p class="headline">Choose between <span class="bold">1000's of games</span><br>
+            to play,<br>
+            that too <span class="bold">for free!</span></p>
+        <a href="http://lnkclik.com/6PGa"><h2 class="action">sign up</h2></a>
+        </div>
+    </div>
+    
+</body>
+</html>
